@@ -4,3 +4,5 @@ def square_array(array)
   array.each { |num| new_arr << num ** 2}
   new_arr
 end
+
+square_array([1,2,3,4])
